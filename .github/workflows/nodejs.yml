@@ -11,7 +11,7 @@ jobs:
       - name: npm install, build
         run: |
           npm install
-          npm run build
+          npm run build-prod
           npx wait-on http://localhost:8080
       - name: Cypress run
         uses: cypress-io/github-action@v1
