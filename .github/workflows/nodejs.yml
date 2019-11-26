@@ -13,5 +13,4 @@ jobs:
         with:
           env: host=api.dev.local,port=4222
           start: npm start
-          wait-on: 'http://localhost:8081'
           browser: chrome
