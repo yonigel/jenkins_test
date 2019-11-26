@@ -11,6 +11,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v1
         with:
-          env: host=api.dev.local,port=8081
+          env: host=api.dev.local,port=4222
           start: npm start
           browser: chrome
