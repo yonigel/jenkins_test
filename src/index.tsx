@@ -5,4 +5,4 @@ import App from './app';
 import "./styles.scss";
 
 var mountNode = document.getElementById("app");
-ReactDOM.render(<App name="test2" />, mountNode);
+ReactDOM.render(<App name="test32" />, mountNode);
